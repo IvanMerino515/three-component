@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+box-sizing: border-box;
 }
 
 html{
@@ -24,3 +24,143 @@ margin-top: 0;
 margin-bottom: 0;
 
 }
+
+body{
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+.title{
+font-family: "Big Shoulders Display";
+font-size: 40px;
+font-weight: 700;
+line-height: normal;
+}
+
+
+.text{
+font-size: 15px;
+font-family: "lexend deca";
+line-height: 25px;
+font-weight: 400;
+font-style: normal;
+}
+
+.box1{
+position: relative;
+padding: 48px;
+color: white;
+width: 347px;
+border-radius: 8px 8px 0 0;
+background-color: #e28625;
+}
+
+.box1::after{
+content: "";
+position: absolute;
+top: 85px;
+left: 40px;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-color: #9e5a1271;
+
+}
+
+.box2{
+position: relative;
+padding: 48px;
+color: white;
+width: 347px;
+background-color: #006971;
+}
+
+.box2::after{
+content: "";
+position: absolute;
+top: 55px;
+left: 30px;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-color: #043c407d;
+    
+}
+
+
+
+.box3{
+position: relative;
+padding: 48px;
+color: white;
+width: 347px;
+background-color: #004140;
+}
+
+.box3::after{
+content: "";
+position: absolute;
+top: 35px;
+left: 30px;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-color: #0732318e;
+}
+
+.sedans{
+padding-right: 10px;
+
+}
+
+.suvs{
+margin-top: 20px;
+padding-right: 10px;
+
+}
+
+.button1{
+margin-top: 25px;
+color: #e28625;  
+border-radius: 20px; 
+font-size: 15px;
+background-color: white; 
+border: 0px;
+width: 146px;
+height: 48px;
+}
+
+.button2{
+margin-top: 25px;
+color: #006971;  
+border-radius: 20px; 
+font-size: 15px;
+background-color: white; 
+border: 0px;
+width: 146px;
+height: 48px;
+}
+
+.button3{
+margin-top: 25px;
+color: #006971;  
+border-radius: 20px; 
+background-color: white; 
+font-size: 15px;
+border: 0px;
+width: 146px;
+height: 48px;
+}
+
+
+.image{
+padding-top: 50px;
+padding-left: 15px;
+}
+
+
+
+
+
+
+
